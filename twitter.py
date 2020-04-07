@@ -98,7 +98,7 @@ class Twitter:
 
             auth = OAuth1(client_key= constants.CONSUMER_KEY,
                           client_secret= constants.CONSUMER_SCRET,
-                          resource_owner_secret= constants.ACCESS_SECRET,
+                          resource_owner_secret= constants.ACCESS_SCRET,
                           resource_owner_key= constants.ACCESS_KEY)
             r = requests.get(media_url, auth = auth)
             with open(arr, 'wb') as f:

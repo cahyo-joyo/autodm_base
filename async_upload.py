@@ -16,7 +16,7 @@ VIDEO_FILENAME = 'path/to/video/file'
 oauth = OAuth1(constants.CONSUMER_KEY,
                client_secret=constants.CONSUMER_SCRET,
                resource_owner_key=constants.ACCESS_KEY,
-               resource_owner_secret=constants.ACCESS_SECRET)
+               resource_owner_secret=constants.ACCESS_SCRET)
 
 
 class VideoTweet(object):

@@ -11,7 +11,7 @@ class Twitter:
     def __init__(self):
         print("initializing twitter....")
         self.inits = tweepy.OAuthHandler(constants.CONSUMER_KEY, constants.CONSUMER_SCRET)
-        self.inits.set_access_token(constants.ACCESS_KEY, constants.ACCESS_SECRET)
+        self.inits.set_access_token(constants.ACCESS_KEY, constants.ACCESS_SCRET)
         self.api = tweepy.API(self.inits)
 
 
@@ -105,6 +105,7 @@ class Twitter:
                 f.write(r.content)
 
             print("Media downloaded successfully!")
+            print("Media downloaded successfully!"))
             if shorted_media_url in tweet:
                 print("shorted url "+ str(shorted_media_url))
                 tweet = tweet.replace(shorted_media_url, "")

@@ -105,7 +105,6 @@ class Twitter:
                 f.write(r.content)
 
             print("Media downloaded successfully!")
-            print("Media downloaded successfully!"))
             if shorted_media_url in tweet:
                 print("shorted url "+ str(shorted_media_url))
                 tweet = tweet.replace(shorted_media_url, "")

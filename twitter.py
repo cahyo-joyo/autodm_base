@@ -98,7 +98,7 @@ class Twitter:
 
             auth = OAuth1(client_key= constants.CONSUMER_KEY,
                           client_secret= constants.CONSUMER_SCRET,
-                          resource_owner_secret= constants.ACCESS_SCRET,
+                          resource_owner_secret= constants.ACCESS_SECRET,
                           resource_owner_key= constants.ACCESS_KEY)
             r = requests.get(media_url, auth = auth)
             with open(arr, 'wb') as f:
@@ -111,11 +111,16 @@ class Twitter:
             else:
                 print("kagak ada")
             if type == 'video':
-                videoTweet = VideoTweet(arr)
-                videoTweet.upload_init()
-                videoTweet.upload_append()
-                videoTweet.upload_finalize()
-                videoTweet.tweet(tweet)
+                try:
+                    videoTweet = VideoTweet(arr)
+                    videoTweet.upload_init()
+                    videoTweet.upload_append()
+                    videoTweet.upload_finalize()
+                    videoTweet.tweet(tweet)
+                except ValueError as v:
+                    print(v)
+                    print("Exception happen")
+                    pass
             elif type == 'photo':
                 self.api.update_with_media(filename=arr, status=tweet)
             os.remove(arr)

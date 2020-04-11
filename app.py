@@ -17,8 +17,8 @@ def start():
                 id = dms[i]['id']
 
                 if len(message) is not 0 and len(message) < 280:
-                    if "-cak" or "-eson" in message:
-                        message = message.replace("")
+                    if "-cak" in message or "-yuk" in message or "-eson" in message:
+
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")

@@ -17,7 +17,7 @@ def start():
                 id = dms[i]['id']
 
                 if len(message) is not 0 and len(message) < 280:
-                    if "prikitiw" in message:
+                    if "-cak" or "-eson" in message:
                         message = message.replace("prikitiw", "")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:

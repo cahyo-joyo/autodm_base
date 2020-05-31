@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08bdb981-072d-46ed-8031-25299ac6237f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +37,31 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Python.app">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="twitter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../twupn" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../twupn/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +107,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.twitter" />
       </list>
     </recent_temporary>
@@ -110,30 +133,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1586176347705" />
-    <state width="1345" height="136" key="GridCell.Tab.0.bottom" timestamp="1586584560441">
+    <state width="188" height="162" key="Git.Branch.Popup" timestamp="1589775069379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="136" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586584560441" />
-    <state width="1345" height="136" key="GridCell.Tab.0.center" timestamp="1586584560441">
+    <state width="188" height="162" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1589775069379" />
+    <state width="1345" height="136" key="GridCell.Tab.0.bottom" timestamp="1590490515668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="136" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586584560441" />
-    <state width="1345" height="136" key="GridCell.Tab.0.left" timestamp="1586584560440">
+    <state width="1345" height="136" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590490515668" />
+    <state width="1345" height="136" key="GridCell.Tab.0.center" timestamp="1590490515668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="136" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586584560440" />
-    <state width="1345" height="136" key="GridCell.Tab.0.right" timestamp="1586584560441">
+    <state width="1345" height="136" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590490515668" />
+    <state width="1345" height="136" key="GridCell.Tab.0.left" timestamp="1590490515668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="136" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586584560441" />
+    <state width="1345" height="136" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590490515668" />
+    <state width="1345" height="136" key="GridCell.Tab.0.right" timestamp="1590490515668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="136" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590490515668" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1586579055270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586579055270" />
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586578675147">
+    <state x="384" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1590888892091">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586578675147" />
+    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590888892091" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586241631528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

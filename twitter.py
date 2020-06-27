@@ -7,6 +7,7 @@ import requests
 import os
 from async_upload import VideoTweet
 
+
 class Twitter:
     def __init__(self):
         print("initializing twitter....")

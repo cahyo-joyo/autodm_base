@@ -32,6 +32,7 @@ def start():
                         else:
                             print("DM deleted because its empty..")
                             tw.delete_dm(id)
+                            
                     else:
                         print("DM will be deleted because does not contains keyword..")
                         tw.delete_dm(id)

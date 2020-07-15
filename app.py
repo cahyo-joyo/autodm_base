@@ -35,8 +35,6 @@ def start():
                     else:
                         print("DM will be deleted because does not contains keyword..")
                         tw.delete_dm(id)
-
-
             dms = list()
 
         else:
